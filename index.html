@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Trekker Mart — Premium Travel Gear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ░░ LOADER ░░ -->
+  <div class="loader" id="loader">
+    <div class="loader-logo">
+      <svg viewBox="0 0 100 100" class="loader-svg">
+        <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" font-family="Bebas Neue" font-size="52" fill="none" stroke="#CC2222" stroke-width="1.5">GTM</text>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ░░ CURSOR ░░ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- ░░ HEADER / NAV ░░ -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+
+      <div class="brand">
+        <!-- Swap this src with your actual logo file -->
+        <div class="logo-mark">
+          <svg viewBox="0 0 100 100">
+            <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle"
+              font-family="Bebas Neue" font-size="52" fill="none"
+              stroke="#CC2222" stroke-width="2">GTM</text>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Global Trekker</span>
+          <span class="brand-sub">MART</span>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#contact" class="nav-link nav-cta">Shop Now</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="#products">Products</a>
+    </div>
+  </header>
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+    </div>
+
+    <div class="hero-content">
+      <span class="hero-eyebrow">
+        <span class="dot"></span> Amazon Curated Picks
+      </span>
+      <h1 class="hero-title">
+        <span class="line line-1">GEAR UP.</span>
+        <span class="line line-2">GO <em>FURTHER.</em></span>
+      </h1>
+      <p class="hero-desc">
+        Hand-picked travel essentials — tested by trekkers, trusted by explorers.
+        Every product links directly to Amazon.
+      </p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-primary">Explore Gear</a>
+        <a href="blog.html" class="btn btn-ghost">Read Blog →</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ░░ STRIP ░░ -->
+  <div class="strip">
+    <div class="strip-track">
+      <span>Travel Backpacks</span><span class="sep">✦</span>
+      <span>Smart Gadgets</span><span class="sep">✦</span>
+      <span>Hydration Gear</span><span class="sep">✦</span>
+      <span>Lightweight Packing</span><span class="sep">✦</span>
+      <span>Adventure Ready</span><span class="sep">✦</span>
+      <span>Travel Backpacks</span><span class="sep">✦</span>
+      <span>Smart Gadgets</span><span class="sep">✦</span>
+      <span>Hydration Gear</span><span class="sep">✦</span>
+      <span>Lightweight Packing</span><span class="sep">✦</span>
+      <span>Adventure Ready</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ░░ PRODUCTS ░░ -->
+  <section class="products" id="products">
+    <div class="section-header">
+      <span class="section-tag">Featured Products</span>
+      <h2 class="section-title">TOP PICKS</h2>
+      <p class="section-sub">Curated for every kind of explorer</p>
+    </div>
+
+    <div class="product-grid">
+
+      <!-- Card 1 -->
+      <article class="card" data-index="01">
+        <div class="card-image-wrap">
+          <img src="images/bag.jpg" alt="Travel Backpack" class="card-img" onerror="this.src='https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80'">
+          <div class="card-overlay">
+            <span class="card-tag">Best Seller</span>
+          </div>
+          <div class="card-number">01</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Travel Backpack</h3>
+          <p class="card-desc">Built for long hauls and mountain trails — durable, spacious, and carry-on approved.</p>
+          <div class="card-footer">
+            <a href="YOUR_AMAZON_LINK" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
+              View on Amazon
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card" data-index="02">
+        <div class="card-image-wrap">
+          <img src="images/bottle.jpg" alt="Smart Water Bottle" class="card-img" onerror="this.src='https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80'">
+          <div class="card-overlay">
+            <span class="card-tag">Top Rated</span>
+          </div>
+          <div class="card-number">02</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Smart Water Bottle</h3>
+          <p class="card-desc">Temperature display, leak-proof seal, and 24hr insulation — hydration elevated.</p>
+          <div class="card-footer">
+            <a href="YOUR_AMAZON_LINK" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
+              View on Amazon
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 3 — Placeholder for next product -->
+      <article class="card card-add">
+        <div class="card-add-inner">
+          <div class="add-icon">+</div>
+          <p>Add your next<br>product here</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ░░ WHY US ░░ -->
+  <section class="features">
+    <div class="features-inner">
+      <div class="feature">
+        <div class="feature-icon">🎯</div>
+        <h4>Curated Picks</h4>
+        <p>Only the best gear makes the list — no clutter.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔗</div>
+        <h4>Amazon Direct</h4>
+        <p>Every link goes straight to Amazon for safe checkout.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🌍</div>
+        <h4>Trekker Tested</h4>
+        <p>Recommendations from real travel experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-mark logo-mark--sm">
+          <svg viewBox="0 0 100 100">
+            <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle"
+              font-family="Bebas Neue" font-size="52" fill="none"
+              stroke="#CC2222" stroke-width="2">GTM</text>
+          </svg>
+        </div>
+        <span>Global Trekker Mart</span>
+      </div>
+      <p class="footer-legal">
+        As an Amazon Associate, we earn from qualifying purchases.<br>
+        © 2026 Global Trekker Mart — All rights reserved.
+      </p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
