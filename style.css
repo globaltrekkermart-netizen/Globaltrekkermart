@@ -573,3 +573,23 @@ body {
   .product-grid { grid-template-columns: 1fr; }
   .features-inner { grid-template-columns: 1fr; gap: 28px; }
 }
+
+/* ── PRODUCT SUB-CATEGORY HEADER ─────────────────────────────── */
+.section-sub-header {
+  margin-bottom: 28px;
+}
+.sub-cat-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-cond);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  padding: 10px 20px;
+  background: var(--black-2);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--red);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
