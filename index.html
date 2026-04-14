@@ -11,25 +11,22 @@
 
 <body>
 
-  <!-- ░░ LOADER ░░ -->
   <div class="loader" id="loader">
     <div class="loader-logo">
       <svg viewBox="0 0 100 100" class="loader-svg">
-        <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" font-family="Bebas Neue" font-size="52" fill="none" stroke="#CC2222" stroke-width="1.5">GTM</text>
+        <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle"
+          font-family="Bebas Neue" font-size="52" fill="none"
+          stroke="#CC2222" stroke-width="1.5">GTM</text>
       </svg>
     </div>
   </div>
 
-  <!-- ░░ CURSOR ░░ -->
   <div class="cursor" id="cursor"></div>
   <div class="cursor-trail" id="cursorTrail"></div>
 
-  <!-- ░░ HEADER / NAV ░░ -->
   <header class="site-header" id="siteHeader">
     <div class="header-inner">
-
       <div class="brand">
-        <!-- Swap this src with your actual logo file -->
         <div class="logo-mark">
           <svg viewBox="0 0 100 100">
             <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle"
@@ -46,94 +43,99 @@
       <nav class="main-nav">
         <a href="index.html" class="nav-link active">Home</a>
         <a href="blog.html" class="nav-link">Blog</a>
-        <a href="#products" class="nav-link">Products</a>
-        <a href="#contact" class="nav-link nav-cta">Shop Now</a>
+        <a href="#nails" class="nav-link">Nails</a>
+        <a href="#bags" class="nav-link">Bags</a>
+        <a href="#products" class="nav-link nav-cta">Shop Now</a>
       </nav>
 
       <button class="burger" id="burger" aria-label="menu">
         <span></span><span></span><span></span>
       </button>
     </div>
-
-    <!-- Mobile nav -->
     <div class="mobile-nav" id="mobileNav">
       <a href="index.html">Home</a>
       <a href="blog.html">Blog</a>
-      <a href="#products">Products</a>
+      <a href="#nails">Nails</a>
+      <a href="#bags">Bags</a>
     </div>
   </header>
 
-  <!-- ░░ HERO ░░ -->
+  <!-- HERO -->
   <section class="hero">
     <div class="hero-bg">
       <div class="hero-grid"></div>
       <div class="hero-glow"></div>
     </div>
-
     <div class="hero-content">
       <span class="hero-eyebrow">
         <span class="dot"></span> Amazon Curated Picks
       </span>
       <h1 class="hero-title">
-        <span class="line line-1">GEAR UP.</span>
-        <span class="line line-2">GO <em>FURTHER.</em></span>
+        <span class="line line-1">STYLE UP.</span>
+        <span class="line line-2">STAND <em>OUT.</em></span>
       </h1>
       <p class="hero-desc">
-        Hand-picked travel essentials — tested by trekkers, trusted by explorers.
-        Every product links directly to Amazon.
+        Hand-picked fashion & travel essentials — from trendy press-on nails to premium bags. Every product links directly to Amazon.
       </p>
       <div class="hero-actions">
-        <a href="#products" class="btn btn-primary">Explore Gear</a>
+        <a href="#products" class="btn btn-primary">Explore Products</a>
         <a href="blog.html" class="btn btn-ghost">Read Blog →</a>
       </div>
     </div>
-
     <div class="hero-scroll-hint">
       <span>Scroll</span>
       <div class="scroll-line"></div>
     </div>
   </section>
 
-  <!-- ░░ STRIP ░░ -->
+  <!-- STRIP -->
   <div class="strip">
     <div class="strip-track">
-      <span>Travel Backpacks</span><span class="sep">✦</span>
-      <span>Smart Gadgets</span><span class="sep">✦</span>
-      <span>Hydration Gear</span><span class="sep">✦</span>
-      <span>Lightweight Packing</span><span class="sep">✦</span>
-      <span>Adventure Ready</span><span class="sep">✦</span>
-      <span>Travel Backpacks</span><span class="sep">✦</span>
-      <span>Smart Gadgets</span><span class="sep">✦</span>
-      <span>Hydration Gear</span><span class="sep">✦</span>
-      <span>Lightweight Packing</span><span class="sep">✦</span>
-      <span>Adventure Ready</span><span class="sep">✦</span>
+      <span>Press On Nails</span><span class="sep">✦</span>
+      <span>Tote Bags</span><span class="sep">✦</span>
+      <span>Crossbody Bags</span><span class="sep">✦</span>
+      <span>Soft Gel Nails</span><span class="sep">✦</span>
+      <span>Vegan Leather</span><span class="sep">✦</span>
+      <span>Amazon Finds</span><span class="sep">✦</span>
+      <span>Press On Nails</span><span class="sep">✦</span>
+      <span>Tote Bags</span><span class="sep">✦</span>
+      <span>Crossbody Bags</span><span class="sep">✦</span>
+      <span>Soft Gel Nails</span><span class="sep">✦</span>
+      <span>Vegan Leather</span><span class="sep">✦</span>
+      <span>Amazon Finds</span><span class="sep">✦</span>
     </div>
   </div>
 
-  <!-- ░░ PRODUCTS ░░ -->
+  <!-- ALL PRODUCTS -->
   <section class="products" id="products">
     <div class="section-header">
-      <span class="section-tag">Featured Products</span>
+      <span class="section-tag">All Products</span>
       <h2 class="section-title">TOP PICKS</h2>
-      <p class="section-sub">Curated for every kind of explorer</p>
+      <p class="section-sub">Curated finds across fashion & lifestyle</p>
+    </div>
+
+    <!-- NAILS SECTION -->
+    <div class="section-sub-header" id="nails">
+      <span class="sub-cat-label">💅 Press On Nails</span>
     </div>
 
     <div class="product-grid">
 
-      <!-- Card 1 -->
+      <!-- Nail 1 -->
       <article class="card" data-index="01">
         <div class="card-image-wrap">
-          <img src="images/bag.jpg" alt="Travel Backpack" class="card-img" onerror="this.src='https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80'">
+          <img src="files/nails-pastel.png" alt="Flower Press On Nails" class="card-img">
+          <div class="card-overlay"></div>
           <div class="card-overlay">
-            <span class="card-tag">Best Seller</span>
+            <span class="card-tag">Trending</span>
           </div>
           <div class="card-number">01</div>
         </div>
         <div class="card-body">
-          <h3 class="card-title">Travel Backpack</h3>
-          <p class="card-desc">Built for long hauls and mountain trails — durable, spacious, and carry-on approved.</p>
+          <h3 class="card-title">Short Almond Flower Nails</h3>
+          <p class="card-desc">Press-on almond fake nails with floral acrylic fall design. Full cover glue-on — 30 pcs for women.</p>
           <div class="card-footer">
-            <a href="YOUR_AMAZON_LINK" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+            <a href="https://amzn.to/4su2DdP" target="_blank" rel="nofollow sponsored" class="amazon-btn">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
               View on Amazon
             </a>
@@ -141,20 +143,20 @@
         </div>
       </article>
 
-      <!-- Card 2 -->
+      <!-- Nail 2 -->
       <article class="card" data-index="02">
         <div class="card-image-wrap">
-          <img src="images/bottle.jpg" alt="Smart Water Bottle" class="card-img" onerror="this.src='https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&q=80'">
+          <img src="files/nails-ombre.png" alt="Pastel French Tip Nails" class="card-img">
           <div class="card-overlay">
-            <span class="card-tag">Top Rated</span>
+            <span class="card-tag">Best Seller</span>
           </div>
           <div class="card-number">02</div>
         </div>
         <div class="card-body">
-          <h3 class="card-title">Smart Water Bottle</h3>
-          <p class="card-desc">Temperature display, leak-proof seal, and 24hr insulation — hydration elevated.</p>
+          <h3 class="card-title">Pastel French Tip Press-Ons</h3>
+          <p class="card-desc">BTArtboxnails XCOATTIPS brighter pastel French tip — medium almond, soft gel, 150pcs in 15 sizes.</p>
           <div class="card-footer">
-            <a href="YOUR_AMAZON_LINK" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+            <a href="https://amzn.to/4vt8RgF" target="_blank" rel="nofollow sponsored" class="amazon-btn">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
               View on Amazon
             </a>
@@ -162,24 +164,172 @@
         </div>
       </article>
 
-      <!-- Card 3 — Placeholder for next product -->
-      <article class="card card-add">
-        <div class="card-add-inner">
-          <div class="add-icon">+</div>
-          <p>Add your next<br>product here</p>
+      <!-- Nail 3 -->
+      <article class="card" data-index="03">
+        <div class="card-image-wrap">
+          <img src="files/nails-flower.png" alt="Ombre Press On Nails" class="card-img">
+          <div class="card-overlay">
+            <span class="card-tag">Top Rated</span>
+          </div>
+          <div class="card-number">03</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Ombre Nude Pink Short Nails</h3>
+          <p class="card-desc">Soft gel nude pink press-ons, short square shape, 30pcs reusable in 15 sizes. Salon quality for spring & summer.</p>
+          <div class="card-footer">
+            <a href="https://amzn.to/4sA5nX1" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
+              View on Amazon
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- BAGS SECTION -->
+    <div class="section-sub-header" id="bags" style="margin-top: 60px;">
+      <span class="sub-cat-label">👜 Bags & Purses</span>
+    </div>
+
+    <div class="product-grid">
+
+      <!-- Bag 1 -->
+      <article class="card" data-index="04">
+        <div class="card-image-wrap">
+          <img src="files/bag-mkf-tote.png" alt="MKF Tote Bag" class="card-img">
+          <div class="card-overlay">
+            <span class="card-tag">Popular</span>
+          </div>
+          <div class="card-number">04</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">MKF Collection Tote & Wallet Set</h3>
+          <p class="card-desc">Women's tote bag with wallet, top-handle, vegan leather purse by Mia K. Stylish matching set.</p>
+          <div class="card-footer">
+            <a href="https://amzn.to/3Qowua1" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
+              View on Amazon
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bag 2 -->
+      <article class="card" data-index="05">
+        <div class="card-image-wrap">
+          <img src="files/bag-lovevook-laptop.png" alt="LOVEVOOK Laptop Tote" class="card-img">
+          <div class="card-overlay">
+            <span class="card-tag">Office Pick</span>
+          </div>
+          <div class="card-number">05</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">LOVEVOOK Laptop Tote Bag</h3>
+          <p class="card-desc">Leather work bag, waterproof, large computer handbag purse briefcase. Perfect office gift for women.</p>
+          <div class="card-footer">
+            <a href="https://amzn.to/47YUdUe" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
+              View on Amazon
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bag 3 -->
+      <article class="card" data-index="06">
+        <div class="card-image-wrap">
+          <img src="files/bag-gumhay-leather.png" alt="Gumhay PU Leather Tote" class="card-img">
+          <div class="card-overlay">
+            <span class="card-tag">Versatile</span>
+          </div>
+          <div class="card-number">06</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">Gumhay PU Leather Tote Bag</h3>
+          <p class="card-desc">Sleek PU leather tote with 2 removable straps and zipper closure. Converts from shoulder to crossbody.</p>
+          <div class="card-footer">
+            <a href="https://amzn.to/3QEiSYf" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
+              View on Amazon
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bag 4 -->
+      <article class="card" data-index="07">
+        <div class="card-image-wrap">
+          <img src="files/bag-lovevook-satchel.png" alt="LOVEVOOK Satchel Purse" class="card-img">
+          <div class="card-overlay">
+            <span class="card-tag">Trendy</span>
+          </div>
+          <div class="card-number">07</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">LOVEVOOK Satchel Tote Purse</h3>
+          <p class="card-desc">Trendy PU leather crossbody shoulder bag with top handle. Perfect everyday purse for ladies.</p>
+          <div class="card-footer">
+            <a href="https://amzn.to/4cb0Mpp" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
+              View on Amazon
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bag 5 -->
+      <article class="card" data-index="08">
+        <div class="card-image-wrap">
+          <img src="files/bag-bagsmart-crossbody.png" alt="BAGSMART Crossbody Purse" class="card-img">
+          <div class="card-overlay">
+            <span class="card-tag">Travel Ready</span>
+          </div>
+          <div class="card-number">08</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">BAGSMART Mini Crossbody Purse</h3>
+          <p class="card-desc">Mini travel purse with RFID blocking slots, puffy shoulder handbag wallet. Lightweight & secure.</p>
+          <div class="card-footer">
+            <a href="https://amzn.to/4vvgVNI" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
+              View on Amazon
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Bag 6 -->
+      <article class="card" data-index="09">
+        <div class="card-image-wrap">
+          <img src="files/bag-4pcs-set.png" alt="4pcs Handbag Set" class="card-img">
+          <div class="card-overlay">
+            <span class="card-tag">Best Value</span>
+          </div>
+          <div class="card-number">09</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">4-Piece Fashion Handbag Set</h3>
+          <p class="card-desc">Women's synthetic leather handbags — tote, shoulder bag, top handle satchel & purse set in one pack.</p>
+          <div class="card-footer">
+            <a href="https://amzn.to/4dH9cG5" target="_blank" rel="nofollow sponsored" class="amazon-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.958 10.09c0 1.232.029 2.256-.591 3.351-.502.891-1.301 1.438-2.186 1.438-1.214 0-1.922-.924-1.922-2.292 0-2.692 2.415-3.182 4.699-3.182v.685zm3.186 7.705c-.209.189-.512.201-.748.074-1.052-.872-1.238-1.276-1.814-2.106-1.734 1.768-2.962 2.297-5.209 2.297-2.661 0-4.731-1.641-4.731-4.925 0-2.565 1.391-4.309 3.37-5.164 1.715-.754 4.11-.891 5.942-1.097v-.41c0-.753.06-1.642-.384-2.294-.385-.579-1.124-.82-1.775-.82-1.205 0-2.277.618-2.54 1.897-.054.285-.261.567-.549.58l-3.064-.333c-.259-.056-.547-.266-.472-.66C5.868 1.782 9.066 1 11.93 1c1.462 0 3.373.389 4.527 1.498C17.82 3.919 17.69 5.768 17.69 7.75v5.155c0 1.551.643 2.232 1.248 3.07.212.297.258.653-.01.874l-1.784 1.946z"/></svg>
+              View on Amazon
+            </a>
+          </div>
         </div>
       </article>
 
     </div>
   </section>
 
-  <!-- ░░ WHY US ░░ -->
+  <!-- FEATURES -->
   <section class="features">
     <div class="features-inner">
       <div class="feature">
         <div class="feature-icon">🎯</div>
         <h4>Curated Picks</h4>
-        <p>Only the best gear makes the list — no clutter.</p>
+        <p>Only the best products make the list — no clutter.</p>
       </div>
       <div class="feature">
         <div class="feature-icon">🔗</div>
@@ -187,14 +337,13 @@
         <p>Every link goes straight to Amazon for safe checkout.</p>
       </div>
       <div class="feature">
-        <div class="feature-icon">🌍</div>
-        <h4>Trekker Tested</h4>
-        <p>Recommendations from real travel experience.</p>
+        <div class="feature-icon">✨</div>
+        <h4>Style Tested</h4>
+        <p>Recommendations picked for quality and style.</p>
       </div>
     </div>
   </section>
 
-  <!-- ░░ FOOTER ░░ -->
   <footer class="site-footer" id="contact">
     <div class="footer-inner">
       <div class="footer-brand">
